@@ -1,0 +1,294 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul, li, h1, h2, h3, h4, h5, p {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body {
+	background: linear-gradient(#f0f0f0,#fefefe);
+	margin: 0px;
+	padding: 0px;
+}
+
+.clr {
+	clear: both;
+}
+.container {
+	width: 916px;
+	margin: 0 auto;
+
+}
+
+.logo {
+	padding: 20px 0px;
+}
+.navbar ul{
+	overflow: hidden;
+	border: 1px solid #cccccc;
+	border-radius: 8px;
+	background: linear-gradient(#fff, #e6e6e6);
+	display: table;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, .11)
+
+}
+
+.navbar li {
+	list-style: none;
+	float: left;
+	border-right: 1px solid #cccccc;
+	border-left: 1px solid #fff; 
+	display: table-cell;
+}
+
+.navbar li:first-child{
+	border-left: none;
+	border-top-right-radius: 8px;
+}
+
+.navbar li:first-child{
+	border-right: none;
+}	
+
+.navbar ul li a {
+	text-decoration: none;
+	padding: 18px 54px;
+	display: inline-block;
+	font-family:Myriad Pro;
+	color: #000;
+	font-size: 20px;  
+}
+
+.navbar ul li:first-child{
+	border-left: none;
+	border-bottom-left-radius: 8px;
+	border-top-left-radius: 8px;
+
+}
+
+.navbar ul li a:hover{
+	background: linear-gradient(#4fa5b6,#318ea2);
+	color: #fff;
+}
+
+.box-1 {
+	background-image: linear-gradient(to bottom, rgba(255,255,255,0.05), rgba(255,255,255,0.80), rgba(255,255,255,0.80), rgba(255,255,255,0.05));
+}
+
+.box-1 .container {
+	background-image: url(../images/banner.png);
+	height: 427px;
+	text-align: center;
+}
+
+.baz {
+	float: right;
+	margin-top: 100px;
+	margin-right: 44px;
+}
+
+.baz h1 {
+	font-size: 58px;
+	font-family:Myriad Pro; 
+}
+
+.baz h3 {
+	font-size: 40px;
+	font-family:Myriad Pro; 
+	text-align: center;
+}
+
+.button {
+	position: relative;
+	top: 46px;
+	background-color: #3691a6;
+	color: #fff;
+	padding: 15px 30px;
+	font-family: Myriad Pro;
+	font-size: 30px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+main {
+	overflow: hidden;
+	background-color: #fdfdfd;
+	border: 1px solid #e6e6e6;
+	border-radius: 10px;
+}
+
+.sections {
+	padding: 20px;
+}
+
+.picturs {
+	float: left;
+	width: 219px;
+	display: block;
+	font-size: 13px;
+	line-height: 21px;
+	font-family: Arial
+	font-size: 13px;
+	line-height: 16px;
+	
+}
+
+
+.picturs:last-child {
+	margin-left: : 0px;
+}
+
+
+.picturs img {
+	margin-bottom: 18px;
+}
+
+.picturs h4 {
+	color: #318ea2;
+	margin-left: 15px;
+}
+
+.picturs p {
+	color: #323232;
+	margin: 0px 15px 17px;
+}
+
+.picturs h4:hover {
+	cursor: pointer;
+	color: #555;
+}
+
+.picturs .pic {
+	margin-left: 15px;
+	cursor: pointer;
+}
+
+
+
+.section_3 .box {
+	float: left;
+	display: inline-block;
+}
+
+.section_3 .top_box {
+	width: 65%
+}
+.section_3 .bottom_box {
+	width: 34%;
+	margin-left: -15px;
+}
+
+.section_3 h3 {
+	position: relative;
+	font-family: "Myriad Pro Semibold";
+	font-size: 33px;
+	margin: 20px -35px 33px -1px;
+	padding: 25px;
+}
+
+.Recent_projects h3 {
+	margin-left: -15px;
+	padding: 35px 20px 35px 20px;
+	display: inline-block;
+}
+
+.pic_right {
+	float: left;
+	width: 60%;
+	display: block;
+}
+
+.img3 {
+	float: left;
+	display: block;
+	width: 110px;
+	margin-bottom: 40px;
+}
+
+.bottom_box span {
+	display: block;
+	margin-top: 0px;
+	margin-bottom: 18px;	
+	font-size: 13px;
+	line-height: 20px;
+	color: #323232;
+	font-family: arial;
+
+}
+
+.iconka {
+	cursor: pointer;
+}
+
+.strong_p {
+	margin: 0px 31px;
+	font-weight: bold;	
+}
+
+.strong_p:hover{
+	cursor: pointer;
+	color: #318ea2;
+	text-decoration: underline;
+
+}
+
+.section_3 p {
+	line-height: 20px;
+	font-family: arial;
+	font-size: 13px;
+}
+
+.text-left {
+	float: left;
+	margin-top: 0px;
+	padding: 10px 10px 85px 35px;
+}
+
+.text-right {
+	width: 90%
+}
+
+.text-right p {
+	margin-top: 20px;
+	margin-bottom: 20px; 
+}
+
+.liber {
+	float: left;
+	margin: 0px 0px 40px 50px;
+	list-style-image: url(../images/list_icon.png);
+}
+
+.liber-icon {
+	padding-right: 60px;
+}
+
+.liber li a {
+	font-family: arial;
+	font-size: 13px;
+	line-height: 20px;
+	color: #308da2;
+	text-decoration: underline;
+}
+
+.liber li a:hover{
+	color: #555;
+}
+
+footer {
+	text-align: center;
+	margin: 30px 40px 45px;
+	font-family: arial;
+	font-size: 12px;
+}
+
+
+
+
+
+
